@@ -12319,6 +12319,15 @@ Cutout required for case screw, holes for mounting pcb.</description>
 <circle x="0" y="0" radius="5.588" width="2" layer="43"/>
 <circle x="0" y="0" radius="2.35" width="0.1524" layer="21"/>
 <pad name="B4,5" x="0" y="0" drill="4.5" diameter="9"/>
+<circle x="0" y="0" radius="2.35" width="0.1" layer="20"/>
+<hole x="-3.5" y="0" drill="0.5"/>
+<hole x="0" y="-3.5" drill="0.5"/>
+<hole x="3.5" y="0" drill="0.5"/>
+<hole x="0" y="3.5" drill="0.5"/>
+<hole x="-2.25" y="2.5" drill="0.5"/>
+<hole x="2.5" y="2.5" drill="0.5"/>
+<hole x="2.5" y="-2.5" drill="0.5"/>
+<hole x="-2.5" y="-2.5" drill="0.5"/>
 </package>
 <package name="3386-MULTI">
 <description>3/8" Square Trimmer (Multi-Package)</description>
@@ -19022,15 +19031,6 @@ vn = -13.43</text>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,35.56,86.36,CN1,VBUS,N$3,,,"/>
-<approved hash="206,1,147.32,55.88,OUTN,,,,,"/>
-<approved hash="206,1,147.32,53.34,OUTN,,,,,"/>
-<approved hash="113,1,27.305,82.5712,CN1,,,,,"/>
-<approved hash="113,1,254.322,72.39,LD1,,,,,"/>
-<approved hash="113,1,253.678,59.69,LD2,,,,,"/>
-<approved hash="113,1,56.2017,46.99,LD3,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
