@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -222,6 +222,7 @@ CMS3005 / CMS3015</text>
 <wire x1="12.25" y1="22" x2="14.25" y2="24" width="0.3048" layer="41"/>
 <wire x1="14.25" y1="24" x2="15.75" y2="24" width="0.3048" layer="41"/>
 <wire x1="15.75" y1="24" x2="15.75" y2="28" width="0.3048" layer="41"/>
+<hole x="25" y="40" drill="0.4"/>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1537,7 +1538,7 @@ Based on the following sources:
 <circle x="9.75" y="65.1" radius="3.048" width="2.032" layer="41"/>
 <circle x="9.75" y="65.1" radius="3.048" width="2.032" layer="42"/>
 <circle x="9.75" y="65.1" radius="1.9" width="0.2032" layer="21"/>
-<hole x="9.75" y="65.1" drill="3.6"/>
+<hole x="9.75" y="65.1" drill="3.2"/>
 <circle x="40.25" y="65.1" radius="3.429" width="0.1524" layer="21"/>
 <circle x="40.25" y="65.1" radius="0.762" width="0.4572" layer="51"/>
 <circle x="40.25" y="65.1" radius="3.048" width="2.7686" layer="39"/>
@@ -1546,7 +1547,7 @@ Based on the following sources:
 <circle x="40.25" y="65.1" radius="3.048" width="2.032" layer="41"/>
 <circle x="40.25" y="65.1" radius="3.048" width="2.032" layer="42"/>
 <circle x="40.25" y="65.1" radius="1.9" width="0.2032" layer="21"/>
-<hole x="40.25" y="65.1" drill="3.6"/>
+<hole x="40.25" y="65.1" drill="3.2"/>
 <circle x="9.75" y="14.9" radius="3.429" width="0.1524" layer="21"/>
 <circle x="9.75" y="14.9" radius="0.762" width="0.4572" layer="51"/>
 <circle x="9.75" y="14.9" radius="3.048" width="2.7686" layer="39"/>
@@ -1555,7 +1556,7 @@ Based on the following sources:
 <circle x="9.75" y="14.9" radius="3.048" width="2.032" layer="41"/>
 <circle x="9.75" y="14.9" radius="3.048" width="2.032" layer="42"/>
 <circle x="9.75" y="14.9" radius="1.9" width="0.2032" layer="21"/>
-<hole x="9.75" y="14.9" drill="3.6"/>
+<hole x="9.75" y="14.9" drill="3.2"/>
 <circle x="40.25" y="14.9" radius="3.429" width="0.1524" layer="21"/>
 <circle x="40.25" y="14.9" radius="0.762" width="0.4572" layer="51"/>
 <circle x="40.25" y="14.9" radius="3.048" width="2.7686" layer="39"/>
@@ -1564,7 +1565,7 @@ Based on the following sources:
 <circle x="40.25" y="14.9" radius="3.048" width="2.032" layer="41"/>
 <circle x="40.25" y="14.9" radius="3.048" width="2.032" layer="42"/>
 <circle x="40.25" y="14.9" radius="1.9" width="0.2032" layer="21"/>
-<hole x="40.25" y="14.9" drill="3.6"/>
+<hole x="40.25" y="14.9" drill="3.2"/>
 </package>
 <package name="4,5-PAD">
 <description>&lt;b&gt;MOUNTING PAD&lt;/b&gt; 4.5 mm, round</description>
@@ -3458,8 +3459,6 @@ design rules under a new name.</description>
 <approved hash="18,30,0cfe96b37151f2cc"/>
 <approved hash="18,29,993a828ef4baef0e"/>
 <approved hash="18,29,fefeffcaf0bef18a"/>
-<approved hash="18,29,b7ecbfe4bd9ab592"/>
-<approved hash="18,29,ffb4ffbcfdbafdb2"/>
 <approved hash="18,29,889869ac66c887fc"/>
 <approved hash="18,29,ef5c14e862cc9978"/>
 <approved hash="18,29,6f75e8b5006f373a"/>
@@ -3467,8 +3466,10 @@ design rules under a new name.</description>
 <approved hash="18,30,44df6fc02fe404f9"/>
 <approved hash="18,30,9789377288f6bc4f"/>
 <approved hash="18,30,285f492b3a7ca722"/>
-<approved hash="18,30,e331402c641cb582"/>
+<approved hash="18,29,b7ecbfe4bd9ab592"/>
+<approved hash="18,29,ffb4ffbcfdbafdb2"/>
 <approved hash="18,30,2f3ecdecb6df6c27"/>
+<approved hash="18,30,e331402c641cb582"/>
 <approved hash="18,30,a859c02123bdc2a3"/>
 <approved hash="18,30,37a50a430268ec79"/>
 <approved hash="18,30,5d20f4d3cece91de"/>
@@ -3480,15 +3481,15 @@ design rules under a new name.</description>
 <approved hash="4,1,9db76ff7c9510d67"/>
 <approved hash="4,1,fd79b9b9ba78feb8"/>
 <approved hash="4,1,fcf1b831bc08f8c8"/>
-<approved hash="4,1,f263a2a3a02ef0ee"/>
 <approved hash="4,1,ecfbbc3bb27ee2be"/>
+<approved hash="4,1,f263a2a3a02ef0ee"/>
 <approved hash="4,1,c47c3cbc0630fef0"/>
 <approved hash="4,1,f472bcb28638cef8"/>
 <approved hash="4,1,fcf83c383278f2b8"/>
 <approved hash="4,1,a3643aa43828a1e8"/>
 <approved hash="4,1,971365b3bd1579c3"/>
-<approved hash="4,1,ad7471b47270aeb0"/>
 <approved hash="4,1,acfc703c7400a8c0"/>
+<approved hash="4,1,ad7471b47270aeb0"/>
 <approved hash="4,1,3a67a2a7a02838e8"/>
 <approved hash="4,1,24ffbc3fb2782ab8"/>
 <approved hash="4,1,8c707cb04638b6f8"/>
@@ -3496,19 +3497,19 @@ design rules under a new name.</description>
 <approved hash="4,16,c4843c443200cac0"/>
 <approved hash="4,16,131f92df90501190"/>
 <approved hash="4,16,9db76ff7c9510d67"/>
-<approved hash="4,16,fd79b9b9ba78feb8"/>
 <approved hash="4,16,fcf1b831bc08f8c8"/>
-<approved hash="4,16,f263a2a3a02ef0ee"/>
+<approved hash="4,16,fd79b9b9ba78feb8"/>
 <approved hash="4,16,ecfbbc3bb27ee2be"/>
+<approved hash="4,16,f263a2a3a02ef0ee"/>
 <approved hash="4,16,c47c3cbc0630fef0"/>
 <approved hash="4,16,f472bcb28638cef8"/>
 <approved hash="4,16,fcf83c383278f2b8"/>
 <approved hash="4,16,a3643aa43828a1e8"/>
 <approved hash="4,16,971365b3bd1579c3"/>
-<approved hash="4,16,acfc703c7400a8c0"/>
 <approved hash="4,16,ad7471b47270aeb0"/>
-<approved hash="4,16,3a67a2a7a02838e8"/>
+<approved hash="4,16,acfc703c7400a8c0"/>
 <approved hash="4,16,24ffbc3fb2782ab8"/>
+<approved hash="4,16,3a67a2a7a02838e8"/>
 <approved hash="4,16,8c707cb04638b6f8"/>
 </errors>
 </board>

@@ -12265,7 +12265,7 @@ Cutout required for case screw, holes for mounting pcb.</description>
 <circle x="9.75" y="65.1" radius="3.048" width="2.032" layer="41"/>
 <circle x="9.75" y="65.1" radius="3.048" width="2.032" layer="42"/>
 <circle x="9.75" y="65.1" radius="1.9" width="0.2032" layer="21"/>
-<hole x="9.75" y="65.1" drill="3.6"/>
+<hole x="9.75" y="65.1" drill="3.2"/>
 <circle x="40.25" y="65.1" radius="3.429" width="0.1524" layer="21"/>
 <circle x="40.25" y="65.1" radius="0.762" width="0.4572" layer="51"/>
 <circle x="40.25" y="65.1" radius="3.048" width="2.7686" layer="39"/>
@@ -12274,7 +12274,7 @@ Cutout required for case screw, holes for mounting pcb.</description>
 <circle x="40.25" y="65.1" radius="3.048" width="2.032" layer="41"/>
 <circle x="40.25" y="65.1" radius="3.048" width="2.032" layer="42"/>
 <circle x="40.25" y="65.1" radius="1.9" width="0.2032" layer="21"/>
-<hole x="40.25" y="65.1" drill="3.6"/>
+<hole x="40.25" y="65.1" drill="3.2"/>
 <circle x="9.75" y="14.9" radius="3.429" width="0.1524" layer="21"/>
 <circle x="9.75" y="14.9" radius="0.762" width="0.4572" layer="51"/>
 <circle x="9.75" y="14.9" radius="3.048" width="2.7686" layer="39"/>
@@ -12283,7 +12283,7 @@ Cutout required for case screw, holes for mounting pcb.</description>
 <circle x="9.75" y="14.9" radius="3.048" width="2.032" layer="41"/>
 <circle x="9.75" y="14.9" radius="3.048" width="2.032" layer="42"/>
 <circle x="9.75" y="14.9" radius="1.9" width="0.2032" layer="21"/>
-<hole x="9.75" y="14.9" drill="3.6"/>
+<hole x="9.75" y="14.9" drill="3.2"/>
 <circle x="40.25" y="14.9" radius="3.429" width="0.1524" layer="21"/>
 <circle x="40.25" y="14.9" radius="0.762" width="0.4572" layer="51"/>
 <circle x="40.25" y="14.9" radius="3.048" width="2.7686" layer="39"/>
@@ -12292,7 +12292,7 @@ Cutout required for case screw, holes for mounting pcb.</description>
 <circle x="40.25" y="14.9" radius="3.048" width="2.032" layer="41"/>
 <circle x="40.25" y="14.9" radius="3.048" width="2.032" layer="42"/>
 <circle x="40.25" y="14.9" radius="1.9" width="0.2032" layer="21"/>
-<hole x="40.25" y="14.9" drill="3.6"/>
+<hole x="40.25" y="14.9" drill="3.2"/>
 </package>
 <package name="BANANA_SOCKET">
 <description>4 mm banana plug socket .6" spacing</description>
