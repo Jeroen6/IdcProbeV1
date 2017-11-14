@@ -173,6 +173,11 @@ CMS3005 / CMS3015</text>
 <text x="25" y="72" size="1.4224" layer="22" ratio="15" rot="MR0" align="bottom-center">5A/15A (pulsed 20A/60A)
 CMS3005 / CMS3015</text>
 <text x="25" y="45.75" size="1.27" layer="22" ratio="15" rot="MR0" align="bottom-center">Jeroen Lodder 2017-10</text>
+<text x="91" y="-5" size="1.778" layer="19" rot="R180">Need to fix layout:
+- No 1206 but 0806 capacitors
+- Lower ground impedance, more vias.
+- Make sure control TPS signals are cuttable on other layer.
+- Mount holes slightly large</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2222,7 +2227,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.23" y="45.865" size="0.8" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="38.54" y="49.365" size="0.8" layer="27" ratio="15" rot="R90"/>
 </element>
-<element name="R14" library="rcl" package="R0805I" value="10k" x="34" y="50" smashed="yes" rot="R270">
+<element name="R14" library="rcl" package="R0805I" value="" x="34" y="50" smashed="yes" rot="R270">
 <attribute name="NAME" x="34.48" y="45.865" size="0.8" layer="25" ratio="15" rot="R90"/>
 <attribute name="VALUE" x="31.46" y="50.635" size="0.8" layer="27" ratio="15" rot="R270"/>
 </element>
@@ -2256,7 +2261,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="37.27" y="41.635" size="0.8" layer="25" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="33.46" y="43.635" size="0.8" layer="27" ratio="15" rot="R270"/>
 </element>
-<element name="R15" library="rcl" package="R0805" value="2M" x="34" y="43" smashed="yes" rot="R90">
+<element name="R15" library="rcl" package="R0805" value="1.8M" x="34" y="43" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.635" y="41.73" size="0.8" layer="25" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="36.54" y="42.365" size="0.8" layer="27" ratio="15" rot="R90"/>
 </element>
@@ -2268,7 +2273,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="26.905" y="38.381" size="0.8" layer="25" ratio="15"/>
 <attribute name="VALUE" x="26.905" y="38.349" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R17" library="rcl" package="R0805I" value="100" x="25" y="37" smashed="yes">
+<element name="R17" library="rcl" package="R0805I" value="3.9k" x="25" y="37" smashed="yes">
 <attribute name="NAME" x="27.365" y="36.27" size="0.8" layer="25" ratio="15"/>
 <attribute name="VALUE" x="24.365" y="34.46" size="0.8" layer="27" ratio="15"/>
 </element>

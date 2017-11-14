@@ -18162,7 +18162,7 @@ part number 2062-2P from STA</description>
 <part name="GND41" library="supply" deviceset="GND" device=""/>
 <part name="GND42" library="supply" deviceset="GND" device=""/>
 <part name="R13" library="rcl" deviceset="R-EU_" device="R0805I" value="10k"/>
-<part name="R14" library="rcl" deviceset="R-EU_" device="R0805I" value="10k"/>
+<part name="R14" library="rcl" deviceset="R-EU_" device="R0805I"/>
 <part name="GND43" library="supply" deviceset="GND" device=""/>
 <part name="V3" library="supply" deviceset="V-" device=""/>
 <part name="GND44" library="supply" deviceset="GND" device=""/>
@@ -18181,12 +18181,12 @@ part number 2062-2P from STA</description>
 <part name="TP1" library="Jeroen" deviceset="TESTPOINT" device=""/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="2M"/>
+<part name="R15" library="rcl" deviceset="R-EU_" device="R0805" value="1.8M"/>
 <part name="R16" library="Jeroen" deviceset="POT_MULTI" device="" value="100k"/>
 <part name="V4" library="supply" deviceset="V+" device=""/>
 <part name="V6" library="supply" deviceset="V-" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="3MM"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0805I" value="100"/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805I" value="3.9k"/>
 <part name="GND2" library="supply" deviceset="GND" device=""/>
 <part name="D6" library="microbuilder" deviceset="DIODE" device="SMA" value="SS24 (40V)"/>
 <part name="GND3" library="supply" deviceset="GND" device=""/>
@@ -18195,19 +18195,24 @@ part number 2062-2P from STA</description>
 <sheets>
 <sheet>
 <plain>
-<text x="175.26" y="233.68" size="1.778" layer="98">Equations VPOS:
+<text x="134.62" y="228.6" size="1.778" layer="98">Equations VPOS:
 r1 = r2 * (vp/vref-1)
 vp =  ( vref * (r1 * r2) / r2 )
 vp =  ( 2.213 * (1000 * 100) / 100 )
 vp = 12.13</text>
-<text x="175.26" y="218.44" size="1.778" layer="98">Equations VNEG:
+<text x="134.62" y="213.36" size="1.778" layer="98">Equations VNEG:
 vn =  ( vref * (r1 * r2) / r2 )
 vn =  ( 1.213 * (1000 * 100) / 100 )
 vn = -13.43</text>
-<text x="106.68" y="208.28" size="1.778" layer="98">SRN3010</text>
+<text x="106.68" y="208.28" size="1.778" layer="98">SRN3015 (all inductors)</text>
 <text x="231.14" y="185.42" size="1.778" layer="98">should be 22uF</text>
 <text x="223.52" y="139.7" size="1.778" layer="98">should be 22uF</text>
 <text x="40.64" y="203.2" size="1.778" layer="98">5V input</text>
+<text x="213.36" y="205.74" size="1.778" layer="98">C10 not placed</text>
+<text x="208.28" y="165.1" size="1.778" layer="98">C9 not placed</text>
+<text x="228.6" y="175.26" size="1.778" layer="98">Capacitors not 1206, but stacked 4.7uF instead
+1206 has awful ripple</text>
+<text x="63.5" y="208.28" size="1.778" layer="98">Replaced for 5V TVS</text>
 </plain>
 <instances>
 <instance part="C2" gate="G$1" x="101.6" y="172.72" rot="MR0"/>
@@ -18677,6 +18682,8 @@ vn = -13.43</text>
 <text x="104.14" y="78.74" size="1.778" layer="98">Rb</text>
 <text x="114.3" y="109.22" size="1.778" layer="98">Offset correct</text>
 <text x="149.86" y="109.22" size="1.778" layer="98">Multiply to 1V/A gain</text>
+<text x="96.52" y="60.96" size="1.778" layer="98">R15 not 2M but 1.8M</text>
+<text x="101.6" y="116.84" size="1.778" layer="98">Missing divide, required to get the CMS3015 to 1 V/A</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
