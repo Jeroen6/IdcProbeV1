@@ -1,0 +1,13 @@
+Status:
+- = Planned.
+X = In progress, some work done.
+* = Done.
+? = Not sure if worth the effort or useful at all.
+N = Decided against.
+
+Prepend versions on list from top (oldest at bottom)
+----------
+- Fix oscillation on capacitive load. Add load resistance.
+- Measure significance of inrush on plug in.
+- Test NCP360, since NCP361 with current limit will turn off due to inrush.
+- Add fuse if NCP360 is used.
