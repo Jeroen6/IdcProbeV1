@@ -31,9 +31,9 @@ However, when (winter)time came to continue this project sad news arrived.
 
 ## Future
 The CFS1000 is a more versatile product. Which is an advantage, but not if you required on the engineering and factory calibration of the CMS3000.
-The CFS series requires development of an external sensing busbar and calibration procedure, both exceed my intended complexity of this project.
+The CFS series requires development of an external sensing busbar and calibration procedure, both exceed my initial intended complexity of this project. But I might change my mind.
 
-I will not persue development of this project, apart from assembling a few units for peronal use.  
+I will probably not persue development of this project, apart from assembling a few units for peronal use.  
 
 *If someone has ideas to revive this project, let me know (make an issue or something)*
 
