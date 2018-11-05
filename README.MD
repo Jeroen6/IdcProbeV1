@@ -18,15 +18,15 @@ Several prototypes have shown this is not an easy job, keeping ripple low is dif
 Due to the capacitance required for the DC-DC converter a high inrush current needs to be reduced on the USB input.
 
 ## Progress so far
-So far has been two working prototypes (photo) have beed made and used thoroughly this year, it was extremely useful!  
-Several important changes to the PCD have been made, both to the DC-DC, the input current, and output oscillation prevention on the output.
+So far two working prototypes have been made (photo) and used thoroughly this year, it was extremely useful!  
+Several important changes to the circuit have been made, both to the DC-DC, the input current, and oscillation prevention on the output with long BNC cables.
 
 ![photo of prototype](https://raw.githubusercontent.com/Jeroen6/IdcProbeV1/master/media/Prototype%20box.jpg)  
 ![photo of prototype](https://raw.githubusercontent.com/Jeroen6/IdcProbeV1/master/media/thumbnails/Prototype%201%20-%20top%20thumbnail.jpg)
 ![photo of prototype](https://raw.githubusercontent.com/Jeroen6/IdcProbeV1/master/media/thumbnails/Prototype%201%20-%20bottom%20left%20thumbnail.jpg)  
 *(high-res in media folder)*
 
-However, when time came to continue this project sad news arrived.  
+However, when (winter)time came to continue this project sad news arrived.  
 [Sensitec discontinued the CMS and CDS current sensor families][1], with the [CFS1000][2] chip as alternative.
 
 ## Future
