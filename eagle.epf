@@ -22,14 +22,12 @@ UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/crystal.lbr
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/dp_devices.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/farnell.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/frames.lbr"
-UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/holes.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/led.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/nordic-semi.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/nrf24l01.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/nxp.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/pinhead.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/testpad.lbr"
-UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/std_lbr/19inch.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/std_lbr/40xx.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/std_lbr/41xx.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/std_lbr/45xx.lbr"
@@ -392,20 +390,15 @@ UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/mbed-libraries-v1.0/
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/mbed-libraries-v1.0/mbed-switches.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/Miscellaneous/ESP8266-ESP12.lbr"
 UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/STD_USED/phoenix_gicv-gf.lbr"
+UsedLibrary="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/lbr/std_lbr/19inch.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="107 185 719 1032"
-State=0
-Number=0
-
-[Win_2]
 Type="Schematic Editor"
-Loc="-1448 -8 -557 1033"
-State=1
+Loc="104 0 995 1041"
+State=3
 Number=1
-File="C:/Users/Jeroen/CloudStation/Projects/0 Multi/IdcProbe/IdcProbeV1.1/IdcProbe.sch"
-View="72.1237 33.5448 260.738 163.456"
+File="IdcProbe.sch"
+View="6.18423 -4.48864 409.867 267.118"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -444,17 +437,17 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 208.601 79.4362 463.187 253.365 2: 72.1237 33.5448 260.738 163.456"
-Sheet="2"
+Views=" 1: 6.18423 -4.48864 409.867 267.118 2: 1.25232 -7.30233 272.857 179.77"
+Sheet="1"
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
-Loc="96 -8 987 1033"
-State=1
+Loc="104 0 995 1041"
+State=3
 Number=2
-File="C:/Users/Jeroen/CloudStation/Projects/0 Multi/IdcProbe/IdcProbeV1.1/IdcProbe.brd"
-View="19.3383 10.9587 77.5474 92.5967"
-WireWidths=" 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 1.6764 1.4224 1.27 0.254 1.016 0.8128 0.6096 0.4064 0.3048"
+File="IdcProbe.brd"
+View="9.20745 13.2585 57.7151 81.2902"
+WireWidths=" 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 1.6764 1.4224 1.27 0.254 1.016 0.8128 0.6096 0.3048 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
@@ -491,19 +484,16 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=16
+Layer=1
 
-[Win_4]
-Type="CAM Processor"
-Loc="652 321 1251 756"
+[Win_3]
+Type="Control Panel"
+Loc="384 0 1903 861"
 State=2
-Number=3
-File="C:/Users/Jeroen/CloudStation/Projects/0 Multi/IdcProbe/IdcProbeV1.1/IdcProbe.brd"
-Job="C:/Users/Jeroen/ownCloud/Projects/14 Eagle/cam/Smart-Prototyping_2Layer_Gerber with name layer.cam"
+Number=0
 
 [Desktop]
-Screen="3360 1080"
+Screen="3840 1080"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
-Window="Win_4"
